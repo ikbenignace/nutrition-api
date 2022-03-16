@@ -20,7 +20,7 @@ app.get('/', async (req, res) => {
         } 
     }); 
     await page.$eval('#sample-api-request', el => el.value = '');
-    await page.type('#sample-api-request', '200g chicken')
+    await page.type('#sample-api-request', req.query.query)
     await page.click('#submitSampleAPIRequest')
 })
 
