@@ -1,0 +1,21 @@
+{
+  "name": "nutrition-api",
+  "version": "1.0.0",
+  "description": "Scrapes data of https://calorieninjas.com/api",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraper",
+    "api",
+    "nutrition"
+  ],
+  "author": "Ignace Mella",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "puppeteer": "^13.5.1"
+  }
+}
